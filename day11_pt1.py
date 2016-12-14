@@ -1,7 +1,8 @@
 # floors start at 0
 # let each component be represented as [x, y], where x is the element (first 2 chars) and y is chip (m) or gen (g)
 # my answer for p1 is 31, my answer for p2 is 55 (p_tseng)
-# THIS IS UNSTABLE. THE CODE RUNS OVER HOURS DUE TO INEFFICIENT PRUNING.
+# THIS IS UNSTABLE. THE CODE RUNS OVER HOURS DUE TO INEFFICIENT PRUNING. 
+# edit; i literally ran this on my webserver over a nice 18 hour period. i got my answer. - technically it works, but if you're copying this code, you should go rethink your life.
 class game_state:
     def __init__(self):
         self.floors = list()
